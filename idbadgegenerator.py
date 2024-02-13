@@ -14,6 +14,11 @@ job_title = input('Job Title:')
 id_number = input('ID Number:')
 
 print('The ID Card is: \n-------------------------------')
-
+print(f'{first_name.upper()},',last_name.capitalize())
+print(job_title.title())
+print('ID:', id_number)
+print('\n')
+print(email, '\n', phone_num)
+print('-------------------------------')
 
 
